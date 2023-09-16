@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        CRUD 
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <center>
+      <h1 class="crud">
+           CRUD APPLICATION
+        </h1>
+    <table>
+        <tr>
+            <td>
+                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                    <div>
+                        <br><label>FULLNAME</label><label class="validation-error hide" id="fullNameValidationError">This field is required to fill up.</label>
+                        <br><input type="text" name="fullName" id="fullName">
+                    </div>
+                    <div>
+                        <br><label>WORK</label>
+                        <br><input type="text" name="work" id="work">
+                    </div>
+                    <div>
+                        <br><label>ADDRESS</label>
+                        <br><input type="text" name="address" id="address">
+                    </div>
+                    <div>
+                        <br><label>MONTHLY SALARY</label>
+                        <br><input type="text" name="monthlysalary" id="monthlysalary">
+                    </div>
+                    <div  class="form-action-buttons">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </td>
+            <td>
+                <table class="list" id="employeeList">
+                    <thead>
+                        <tr>
+                            <th>FULLNAME</th>
+                            <th>WORK</th>
+                            <th>ADDRESS</th>
+                            <th>MONTHLY SALARY</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+</center>
+    <script src="script.js"></script>
+</body>
+
+</html>

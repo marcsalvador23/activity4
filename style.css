@@ -1,0 +1,102 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    min-height: 500vh;
+    perspective: 1000px;
+    background-image: url(http://33.media.tumblr.com/41460e0998b603696e7e099cc3a3448a/tumblr_mtbk48fbRb1r70wouo1_500.gif);
+    background-size: calc(50vh);
+    background-attachment: fixed;
+    background-color: #ffffff;
+    width: 75%;
+    
+}
+
+
+
+table {
+    width: 116%;
+    height: 35vh;
+    min-height: 25vh;
+    margin: 1px auto;
+    background-image: url(RXB.gif);
+    border: 2px solid rebeccapurple;
+    box-shadow: inset rgb(136, 0, 255);
+    box-shadow: 0 10px 15px rgb(136, 0, 255);
+    color: rgb(226, 65, 92);
+
+    
+}
+
+table {
+    color: rgb(248, 205, 205);
+    box-shadow: #0400ff;
+    margin: 0% auto;
+}
+
+
+
+td, th {
+    margin: 5px;
+    border: 2px solid rebeccapurple;
+    text-align: center;
+    padding: 50px;
+}
+
+input[type="submit"] {
+    text-decoration-line: unset;
+    width: 50%;
+    background: linear-gradient(#1310df, #0980ff);
+    color: #d4d4ec;
+    padding: 10px 24px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition:0.8s ease-in-out;
+    background-size: 100% 100%;
+    background-position: 0% 100%;
+}
+
+input[type="submit"]:hover {
+    background-position: 50% 0%;
+}
+
+form div.form-action-buttons {
+    text-align: center;
+    size: 100px;
+    width: 100%;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #0400ff;
+    margin-right: 10px;
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #ff0000;
+}
+
+label.validation-error {
+    color: red;
+    margin-left: 5px;
+    display: none;
+}
+
+
+.crud{
+    text-align: center;
+    font-size: 70px;
+    background-size: 200%;
+    background-color: rgb(29, 17, 41);
+    animation: linear infinite;
+    -webkit-animation: normal;
+    -webkit-text-fill-color: rgb(200, 152, 248);
+
+}
+
+
+    
